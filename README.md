@@ -18,11 +18,11 @@ Add / Update / Delete Products
 Manage Orders
 Manage Featured Products
 🏗️ Tech Stack
-Frontend (client/)
+Frontend
 React.js (Vite)
 Tailwind CSS
 Axios
-Backend (server/)
+Backend
 Node.js
 Express.js
 Database
@@ -33,29 +33,28 @@ PayPal (Payment Gateway)
 📂 Project Structure
 mern-ecommerce/
 │
-├── client/                # Frontend (React + Vite)
+├── client/                
 │   ├── src/
 │   └── public/
 │
-├── server/                # Backend (Node + Express)
+├── server/                
 │   ├── controllers/
-│   │   ├── admin/
-│   │   ├── auth/
-│   │   ├── shop/
-│   │   └── common/
 │   ├── models/
 │   ├── routes/
 │   ├── helpers/
 │   └── server.js
 ⚙️ Installation & Setup
-🔹 1. Clone the Repository
+1. Clone the Repository
+
 git clone https://github.com/your-username/E-commerce.git
 cd E-commerce
-🔹 2. Setup Backend
+
+2. Setup Backend
+
 cd server
 npm install
 
-Create .env file inside server/:
+Create .env file inside server folder:
 
 PORT=5000
 MONGO_URI=your_mongodb_url
@@ -64,27 +63,35 @@ CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 PAYPAL_CLIENT_ID=your_paypal_client_id
-🔹 3. Setup Frontend
+
+3. Setup Frontend
+
 cd client
 npm install
-🔹 4. Run the Project
-Start Backend
+
+4. Run the Project
+
+Start Backend:
 cd server
 npm start
-Start Frontend
+
+Start Frontend:
 cd client
 npm run dev
-🌐 API Modules
-Auth: Login / Register
-Products: Fetch & Manage Products
-Cart: Add / Remove Items
-Orders: Place & Track Orders
-Reviews: Product Reviews
-Search: Product Search
-💳 Payment Integration
-PayPal payment gateway is integrated for secure transactions.
-☁️ Image Upload
-Cloudinary is used for storing and managing product images.
-📸 Screenshots
 
-(Add your project screenshots here)
+💳 Payment Integration
+
+PayPal is used for secure payments.
+
+☁️ Image Upload
+
+Cloudinary is used for storing product images.
+
+👨‍💻 Author
+
+Bharath K Shet
+Shivamogga
+
+⭐ Support
+
+If you like this project, give it a star on GitHub!
