@@ -7,6 +7,71 @@ It allows users to browse products, add items to cart, place orders, and make pa
 The application also includes an admin panel for managing products and orders.
 
 ---
+## 📸 Screenshots
+
+### 🏠 Home Page
+
+![Home](screenshots/home.png)
+
+### 🔐 Login Page
+
+![Login](screenshots/login.png)
+
+### 📝 Register Page
+
+![Register](screenshots/register.png)
+
+### 🛍️ Products Page
+
+![Products](screenshots/products.png)
+
+### 🔍 Search Feature
+
+![Search](screenshots/search.png)
+
+### 📦 Product Details
+
+![Product Detail](screenshots/product-detail.png)
+
+### 🛒 Cart Page
+
+![Cart](screenshots/cart.png)
+
+### 💳 Checkout Page
+
+![Checkout](screenshots/checkout.png)
+
+### 💰 Payment Options
+
+![Payment Options](screenshots/payment-options.png)
+
+### ✅ Payment Success
+
+![Payment Success](screenshots/payment-success.png)
+
+### 🅿️ PayPal Login
+
+![PayPal](screenshots/paypal-login.png)
+
+---
+
+## 🛠️ Admin Panel
+
+### 📊 Dashboard
+
+![Admin Dashboard](screenshots/admin-dashboard.png)
+
+### ➕ Add Product
+
+![Add Product](screenshots/admin-add-product.png)
+
+### 🔄 Update Order
+
+![Update Order](screenshots/admin-update-order.png)
+
+### 📋 All Order Status
+
+![Order Status](screenshots/allOrderStatus.png)
 
 ## 🚀 Features
 
